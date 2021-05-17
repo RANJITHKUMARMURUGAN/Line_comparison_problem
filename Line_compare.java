@@ -19,5 +19,15 @@ public class Line_compare {
 	    	double line2=Math.sqrt((a2-a1)*(a2-a1)+(b2-b1));
 	    	System.out.println("Line1 is ="+" "+line1);
 	    	System.out.println("Line2 is ="+" "+line2);
+		if(line1==line2) {
+	    		System.out.println("Both Line are Equal");
+	    	}
+	    	else if(line1>line2) {
+	    		System.out.println("Line1 is graderthan Line2");
+	    	}
+	    	else {
+	    		System.out.println("Line1 is lessthan Line2");
+	    	}
+
 	}
 }
