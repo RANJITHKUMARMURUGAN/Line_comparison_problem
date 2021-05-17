@@ -15,5 +15,9 @@ public class Line_compare {
 	    	int b1 = scan.nextInt();
 	    	int b2 = scan.nextInt();
 	    
+		double line1=Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)+(x2-x1));
+	    	double line2=Math.sqrt((a2-a1)*(a2-a1)+(b2-b1));
+	    	System.out.println("Line1 is ="+" "+line1);
+	    	System.out.println("Line2 is ="+" "+line2);
 	}
 }
